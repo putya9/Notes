@@ -7,9 +7,11 @@
     <TabBar>
         <ShellContent Title="Notes"
                       Icon="icon_feed.png"
+                      BackgroundColor="{OnPlatform iOS=LightSlateGray, Android=#f32125}"
                       ContentTemplate="{DataTemplate views:NotesPage}" />
         <ShellContent Title="About"
                       Icon="icon_about.png"
+                      BackgroundColor="{OnPlatform iOS=LightSlateGray, Android=#f32125}"
                       ContentTemplate="{DataTemplate views:AboutPage}" />
     </TabBar>
 </Shell>
