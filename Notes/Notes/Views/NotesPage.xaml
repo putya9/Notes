@@ -11,6 +11,7 @@
 
     <!-- Display notes in a list -->
     <CollectionView x:Name="collectionView"
+                    BackgroundColor="Red"
                     Margin="20"
                     SelectionMode="Single"
                     SelectionChanged="OnSelectionChanged">
